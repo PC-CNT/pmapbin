@@ -24,5 +24,15 @@ namespace pmapGUI
         {
             InitializeComponent();
         }
+
+        private void TopMost_Checked(object sender, RoutedEventArgs e)
+        {
+            this.Topmost = true;
+        }
+
+        private void TopMost_Unchecked(object sender, RoutedEventArgs e)
+        {
+            this.Topmost = false;
+        }
     }
 }
