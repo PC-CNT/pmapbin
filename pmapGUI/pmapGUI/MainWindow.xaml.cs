@@ -23,6 +23,8 @@ namespace pmapGUI
         public MainWindow()
         {
             InitializeComponent();
+
+            this.Width = SystemParameters.PrimaryScreenWidth;
         }
 
         private void TopMost_Checked(object sender, RoutedEventArgs e)

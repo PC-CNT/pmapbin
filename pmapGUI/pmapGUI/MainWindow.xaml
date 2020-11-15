@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pmapGUI"
         mc:Ignorable="d"
-        Title="pmapGUI" Height="460" Width="600">
+        Title="pmapGUI" Width="Auto" Height="Auto" >
     <Grid>
         <CheckBox Content="最前面に表示" HorizontalAlignment="Left" Margin="484,404,0,0" VerticalAlignment="Top" Checked="TopMost_Checked" Unchecked="TopMost_Unchecked"/>
 
