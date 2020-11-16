@@ -35,6 +35,7 @@ namespace pmapGUI
         private void TopMost_Unchecked(object sender, RoutedEventArgs e)
         {
             this.Topmost = false;
+
         }
     }
 }
