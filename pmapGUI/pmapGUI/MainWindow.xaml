@@ -11,7 +11,7 @@
 
         <DockPanel>
             <Menu DockPanel.Dock="Top">
-                <MenuItem Header="メニュー1(_A)">
+                <MenuItem Header="メニュー1(_A)" Click="MenuItem_Click">
                     <MenuItem Header="メニュー 1-1"/>
                     <MenuItem Header="メニュー 1-2"/>
                     <Separator/>
