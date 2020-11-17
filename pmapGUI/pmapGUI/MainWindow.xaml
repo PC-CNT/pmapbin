@@ -9,5 +9,20 @@
     <Grid>
         <CheckBox Content="最前面に表示" HorizontalAlignment="Left" Margin="484,404,0,0" VerticalAlignment="Top" Checked="TopMost_Checked" Unchecked="TopMost_Unchecked"/>
 
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="メニュー1(_A)">
+                    <MenuItem Header="メニュー 1-1"/>
+                    <MenuItem Header="メニュー 1-2"/>
+                    <Separator/>
+                    <MenuItem Header="メニュー 1-3">
+                        <MenuItem Header="メニュー 1-3-1"/>
+                        <MenuItem Header="メニュー 1-3-2"/>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="メニュー2(_B)"/>
+            </Menu>
+        </DockPanel>
+
     </Grid>
 </Window>

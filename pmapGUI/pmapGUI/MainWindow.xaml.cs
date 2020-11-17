@@ -24,7 +24,8 @@ namespace pmapGUI
         {
             InitializeComponent();
 
-            this.Width = SystemParameters.PrimaryScreenWidth;
+            this.Width = (SystemParameters.PrimaryScreenWidth) / 2;
+            this.Height = (SystemParameters.PrimaryScreenHeight) / 2;
         }
 
         private void TopMost_Checked(object sender, RoutedEventArgs e)
