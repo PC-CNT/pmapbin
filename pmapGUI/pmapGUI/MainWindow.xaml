@@ -20,7 +20,8 @@
                         <MenuItem Header="メニュー 1-3-2"/>
                     </MenuItem>
                 </MenuItem>
-                <MenuItem Header="メニュー2(_B)"/>
+                <MenuItem Header="ツール(_T)">
+                </MenuItem>
             </Menu>
         </DockPanel>
 
